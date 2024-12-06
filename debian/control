@@ -43,8 +43,8 @@ Package: kf5-libkdecorations2-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkdecorations2-5v5 (= ${binary:Version}),
-         libkdecorations2private10 (= ${binary:Version}),
+Depends: kf5-libkdecorations2-5v5 (= ${binary:Version}),
+         kf5-libkdecorations2private10 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
 Description: library to create window decorations - development files
