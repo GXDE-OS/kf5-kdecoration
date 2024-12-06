@@ -35,6 +35,7 @@ Breaks: kwin-common (<< 4:5.26.70),
         kwin-wayland-backend-x11 (<< 4:5.26.70),
         kwin-x11 (<< 4:5.26.70),
 Conflicts:libkdecorations2-5v5,libkdecorations2-6
+Provides: libkdecorations2-5v5
 Description: library to create window decorations
  KDecoration2 is a library to create window decorations. These window
  decorations can be used by for example an X11 based window manager
