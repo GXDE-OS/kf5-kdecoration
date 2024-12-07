@@ -12,5 +12,5 @@ override_dh_auto_test:
 	# Disable dh_auto_test at build time
 	:
 
-override_dh_gencontrol-arch: libpkgs_gen_strict_local_shlibs
-	dh_gencontrol -a
+#override_dh_gencontrol-arch: libpkgs_gen_strict_local_shlibs
+#	dh_gencontrol -a
